@@ -45,11 +45,11 @@ export default function App() {
   }, []);
 
   const galleryImages = [
-    { url: "/images/neju1.jpg", caption: "Sweet Memories" },
-    { url: "/images/hero.jpg", caption: "Neju's Smile" },
-    { url: "/images/bb.jpg", caption: "Beautiful Moments" },
-    { url: "/images/nn.jpg", caption: "birthday hero" },
-    { url: "/images/nm.jpg", caption: "Special Day" },
+    { url: "images/neju1.jpg", caption: "Sweet Memories" },
+    { url: "images/hero.jpg", caption: "Neju's Smile" },
+    { url: "images/bb.jpg", caption: "Beautiful Moments" },
+    { url: "images/nn.jpg", caption: "birthday hero" },
+    { url: "images/nm.jpg", caption: "Special Day" },
   ];
 
   const triggerConfetti = () => {
@@ -177,7 +177,7 @@ export default function App() {
                 className="inline-block p-2 bg-white rounded-full shadow-2xl overflow-hidden w-32 h-32"
               >
                 <img 
-                  src="/images/hero.jpg" 
+                  src="images/hero.jpg" 
                   alt="Neju" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover rounded-full"
